@@ -1,0 +1,64 @@
+container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+.main-container {
+    background-color: #aab0aa;
+}
+
+aside {
+    background-color: #8e8f8e;
+    color: white;
+    width: 30%;
+    margin-right: 1%;
+    line-height: 2em;
+}
+aside h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-left: 5px;
+}
+aside section h2:first-child {
+    border-bottom: 2px solid white;
+}
+img {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+
+.encabezado {
+    background-color: #f6d4b3;
+    box-shadow: 2px 2px 40px 1px #c4c3c3 inset;
+    padding: 15% 0;
+    text-align: center;
+}
+.encabezado h2 {
+    color: white;
+    border-top: 2px solid white;
+    text-transform: none;
+    letter-spacing: 10px;
+}
+.encabezado h1 {
+    letter-spacing: 10px;
+}
+.sobre-mi {
+    background-color: #f3dfcc;
+}
+.sobre-mi p {
+    line-height: 2em;
+    padding: 3px;
+}
+main section > h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+article h3, h4 {
+    font-size: bold;
+}
+article ul {
+    list-style-type:square;
+}
